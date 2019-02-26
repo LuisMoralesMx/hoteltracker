@@ -27,3 +27,4 @@ F:\Code\LM\hoteltracker\hoteltracker\hoteltracker\obj\Debug\netcoreapp2.2\hotelt
 F:\Code\LM\hoteltracker\hoteltracker\hoteltracker\obj\Debug\netcoreapp2.2\hoteltracker.dll
 F:\Code\LM\hoteltracker\hoteltracker\hoteltracker\obj\Debug\netcoreapp2.2\hoteltracker.pdb
 F:\Code\LM\hoteltracker\hoteltracker\hoteltracker\obj\Debug\netcoreapp2.2\hoteltracker.csproj.CopyComplete
+F:\Code\LM\hoteltracker\hoteltracker\hoteltracker\obj\Debug\netcoreapp2.2\hoteltracker.csprojAssemblyReference.cache
