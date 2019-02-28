@@ -1,4 +1,5 @@
-﻿using System;
+﻿using hoteltracker.Models;
+using System;
 
 namespace hoteltracker.Services
 {
@@ -11,8 +12,9 @@ namespace hoteltracker.Services
             throw new NotImplementedException();
         }
 
-        public string doReservation()
+        public string doReservation(ReservationsModel reservations)
         {
+            Console.WriteLine("Do reservations: " + reservations.ToString());
             throw new NotImplementedException();
         }
     }

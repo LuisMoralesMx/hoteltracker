@@ -27,9 +27,9 @@ namespace hoteltracker.Controllers
             return View();
         }
 
-        public IActionResult Register()
+        public IActionResult Reservation(ReservationsModel reservations)
         {
-            _reservationsService.doReservation();
+            _reservationsService.doReservation(reservations);
             return View();
         }
 
