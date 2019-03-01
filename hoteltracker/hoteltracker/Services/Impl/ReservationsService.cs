@@ -1,14 +1,15 @@
 ﻿using hoteltracker.Models;
 using System;
 
-namespace hoteltracker.Services
+namespace hoteltracker.Services.Impl
 {
     public class ReservationsService : IReservationsService
     {
         public int numberOfStayDays { get; set; }
 
-        public string doCancelation()
+        public string doCancelation(ReservationsModel reservations)
         {
+            Console.WriteLine("Do cancelation: " + reservations.ToString());
             throw new NotImplementedException();
         }
 

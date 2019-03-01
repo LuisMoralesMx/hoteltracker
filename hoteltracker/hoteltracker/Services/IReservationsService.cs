@@ -6,7 +6,7 @@ namespace hoteltracker.Services
     {
         int numberOfStayDays { get; set; }
 
-        string doReservation(ReservationsModel reseervations);
-        string doCancelation();
+        string doReservation(ReservationsModel reservations);
+        string doCancelation(ReservationsModel reservations);
     }
 }

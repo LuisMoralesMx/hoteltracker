@@ -7,12 +7,10 @@ namespace hoteltracker.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IReservationsService _reservationsService;
         private readonly IUserService _userService;
 
-        public HomeController(IReservationsService reservationService, IUserService userService)
+        public HomeController(IUserService userService)
         {
-            this._reservationsService = reservationService;
             this._userService = userService;
         }
 
@@ -24,12 +22,6 @@ namespace hoteltracker.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
-        }
-
-        public IActionResult Reservation(ReservationsModel reservations)
-        {
-            _reservationsService.doReservation(reservations);
             return View();
         }
 
